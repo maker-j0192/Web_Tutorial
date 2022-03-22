@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+}
+
+.banner {
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 20px
+}
+
+.index {
+  border-right: 1px solid black;
+  width:90px;
+  margin: 0;
+  padding: 20px;
+}
+
+.comment {
+  border-top: 1px solid black;
+  text-align: center;
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  height: 85vh;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid index {
+  padding-left: 33px;
+}
+
+#grid #content {
+  padding: 25px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#table2 {
+  border-collapse: collapse;
+}
